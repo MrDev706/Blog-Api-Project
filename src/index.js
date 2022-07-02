@@ -10,8 +10,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 const mongoose = require('mongoose')
 
-mongoose.connect("mongodb+srv://user-open-to-all-trainees:AutogenerateSecurePassword@training-cluster.xohin.mongodb.net/ssipDatabase?retryWrites=true&w=majority", {useNewUrlParser: true, useFindAndModify: false})
-    .then(() => console.log('mongodb running on 27017'))
+mongoose.connect("mongodb+srv://Nishant-R:cMVSc6ePV6V4dr03@cluster0.rembes2.mongodb.net/Blog-Project", {useNewUrlParser: true, useFindAndModify: false})
+    .then(() => console.log('mongodb running on 3000'))
     .catch(err => console.log(err))
 
 app.use('/', route);
